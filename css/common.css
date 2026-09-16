@@ -6,9 +6,20 @@ body {
   color: #434455;
   background-color: #fff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -16,9 +27,17 @@ a {
 }
 button {
   cursor: pointer;
+  padding: 0;
+  border: 0;
 }
 address {
   font-style: normal;
+}
+.container {
+  width: 1158px;
+  margin: 0 141px;
+  padding: 120px 0;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -34,4 +53,16 @@ address {
 }
 .logo.down {
   color: #f4f4fd;
+}
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }

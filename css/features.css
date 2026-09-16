@@ -1,8 +1,13 @@
-
 .feature-caption {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 
+.features-list {
+  padding: 0 120px;
+  display: flex;
+  gap: 24px;
+  height: 104px;
+}
