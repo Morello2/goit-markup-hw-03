@@ -6,8 +6,14 @@
 }
 
 .features-list {
-  padding: 0 120px;
+  padding: 120px 0;
   display: flex;
   gap: 24px;
-  height: 104px;
+}
+
+.features-item {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  gap: 8px;
 }

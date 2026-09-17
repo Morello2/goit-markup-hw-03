@@ -35,9 +35,8 @@ address {
 }
 .container {
   width: 1158px;
-  margin: 0 141px;
-  padding: 120px 0;
-  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
