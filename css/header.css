@@ -4,7 +4,7 @@
 .header .container {
   display: flex;
 }
-.header a {
+.logo {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -15,21 +15,28 @@
   flex-grow: 1;
   margin-left: 76px;
 }
+
+.nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .nav-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
 }
+.address-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .address-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .address-link:hover,

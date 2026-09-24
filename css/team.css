@@ -2,6 +2,9 @@
   background-color: #f4f4fd;
   padding: 120px 0;
 }
+.team-ava {
+  display: block;
+}
 
 .team-list {
   display: flex;
