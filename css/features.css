@@ -4,9 +4,12 @@
   line-height: 1.2;
   color: #2e2f42;
 }
-
+.feature-tirle,
 .features-list {
   padding: 120px 0;
+}
+
+.features-list {
   display: flex;
   gap: 24px;
 }

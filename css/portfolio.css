@@ -11,7 +11,8 @@
 }
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
   flex-wrap: wrap;
 }
 .portfolio-dis {

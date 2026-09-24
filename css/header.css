@@ -1,10 +1,12 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header .container {
   display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
+}
+.header a {
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-bottom: 0;
 }
 
 .nav {
@@ -15,8 +17,9 @@
 }
 .nav-list {
   display: flex;
-
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -25,6 +28,8 @@
 .address-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-link:hover,
